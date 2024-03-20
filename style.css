@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Comfortaa:wght@600&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Comfortaa', cursive;
+}
+
+h3{
+    color:rgb(0, 255, 255);
+}
+
+.title{
+    width:98.9vw;
+    height:100vh;
+    background-image:url(image/kandinsky-download-1707232453976.png) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-filter{
+    width: 98.9vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 10px 10px rgba(9, 2, 93, 0.7)
+}
+
+.chat-sfi{
+    color:rgb(0, 255, 238);
+    position: absolute;
+    font-family: 'Comfortaa', cursive;
+    font-size:100px;
+    transition: 1s;
+
+}
+
+.SFI{
+    color:rgba(0, 255, 238, 0.538);
+    position: absolute;
+    font-family: 'Comfortaa', cursive;
+    font-size:50px;
+    transition: 1s;
+    margin-top:160px;
+}
+
+.SFI:hover{
+    color:rgb(0, 255, 255);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.chat-sfi span{
+    color: rgb(132, 41, 223);
+}
+
+.SFI span{
+    color: rgb(132, 41, 223);
+}
+
+#nav {
+    list-style: none;
+    margin: 0;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 101vw;
+    height: 50px;
+    position: fixed;
+    z-index:10;
+    background-color: rgba(82, 78, 78, 0.577);
+    left:1px;
+    text-transform: uppercase;
+    color:rgba(0, 255, 255, 0.57);
+    font-family: 'Comfortaa', cursive;
+    box-shadow: 0 0 20px rgb(82, 78, 78);
+    font-size:30px;
+}
+
+.idea{
+    width:98.9vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image:url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images.jpg);
+}
+
+.idea h3{
+    font-size:50px;
+    z-index: 100;
+}
+
+.idea .number{
+    color: rgb(132, 41, 223);
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    box-shadow: 0 0 10px rgb(39, 38, 38);
+    font-size: 30px;
+    border-radius: 5px;
+    position: absolute;
+    right:10px;
+    bottom:10px;
+}
+
+.content{
+    position: relative;
+    color:rgba(0, 255, 238, 0.726);
+    background-color: rgb(56, 56, 56);
+    box-shadow: 0 0 20px rgb(64, 63, 63);
+    width:300px;
+    height:300px;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 15.9px;
+}
+
+.blocks-idea{
+    display:flex;
+    flex-direction: row;
+    width: 95vw;
+    justify-content: space-around;
+    left:0;
+}
+
+.one-idea:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    transition-duration: 0.4s;
+}
+
+.two-idea:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    transition-duration: 0.4s;
+}
+
+.three-idea:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    transition-duration: 0.4s;
+}
+
+.functional{
+    width:98.9vw;
+    height:100vh;
+    background-image:url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.functional h3{
+    z-index: 100;
+    font-size: 50px;
+}
+
+.func-blocks div{
+    width:300px;
+    height:150px;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 56);
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    box-shadow: 0 0 20px rgb(64, 63, 63);
+    flex-direction: column;
+}
+
+.func-blocks h3{
+    font-size:30px;
+}
+
+.func-blocks{
+    width:98.9vw;
+    height:150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.func-blocks div:hover h3{
+    transition-duration: 0.3s;
+    opacity: 0;
+}
+
+.func-blocks div p{
+    position: absolute;
+    color:rgb(132, 41, 223);
+    opacity: 0;
+    font-size: 28px;
+}
+
+.func-blocks div:hover p{
+    transition-duration: 0.3s;
+    opacity: 1;
+}
+
+.footer{
+    width:98.9vw;
+    height:25vh;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom:0px;
+}
+
+.soc{
+    display: flex;
+    justify-content: space-between;
+    width:50vw;
+    flex-direction: row;
+    padding-top:-10px;
+    position: relative;
+}
+
+.soc h3{
+    margin-top:10px;
+}
+
+.soc p{
+    color:rgb(132, 41, 223);
+}
+
+.soc h3, p:hover{
+    cursor: pointer;
+}
