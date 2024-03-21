@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Comfortaa:wght@600&display=swap');
+
+#nav {
+    list-style: none;
+    margin: 0;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 101vw;
+    height: 50px;
+    position: fixed;
+    z-index:100;
+    background-color: rgba(82, 78, 78, 0.577);
+    left:1px;
+    text-transform: uppercase;
+    color:rgba(0, 255, 255, 0.57);
+    font-family: 'Comfortaa', cursive;
+    box-shadow: 0 0 20px rgb(82, 78, 78);
+    font-size:30px;
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    color:rgb(0, 255, 255);
+}
+
+.body-filter{
+    width:98.9vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-title{
+    width:98.9vw;
+    height: 100vh;
+    color:rgb(0, 255, 255);
+    position: relative;
+    z-index: 10;
+    font-size: 50px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+.title h2:nth-child(1){
+    font-size: 55px;
+}
+
+span{
+    color:rgb(132, 41, 223);
+}
+
+.relevance{
+    width:98.9vw;
+    height:100vh;
+    position: relative;
+}
+
+.relevance h2{
+    font-size:40px;
+    width:70vw;
+}
+
+.target{
+    width:98.9vw;
+    height:100vh;
+    position: relative;
+}
+
+.target h2{
+    font-size:40px;
+    width:70vw;
+}
+
+.tasks{
+    width:98.9vw;
+    height:100vh;
+    position: relative;
+}
+
+.tasks h2{
+    font-size:40px;
+    width:70vw;
+}
+
+.background{
+    position: fixed;
+    z-index:-10;
+    width:100vw;
+}
