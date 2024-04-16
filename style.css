@@ -2,7 +2,7 @@
 
 body{
     margin:0;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Roboto';
 }
 
 h3{
@@ -10,7 +10,7 @@ h3{
 }
 
 .title{
-    width:98.9vw;
+    width:100vw;
     height:100vh;
     background-image:url(image/kandinsky-download-1707232453976.png) ;
     background-size: cover;
@@ -20,7 +20,7 @@ h3{
 }
 
 .title-filter{
-    width: 98.9vw;
+    width: 100vw;
     height: 100vh;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
@@ -67,7 +67,7 @@ h3{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 101vw;
+    width: 100vw;
     height: 50px;
     position: fixed;
     z-index:10;
@@ -81,7 +81,7 @@ h3{
 }
 
 .idea{
-    width:98.9vw;
+    width:100vw;
     height:100vh;
     display: flex;
     flex-direction: column;
@@ -116,8 +116,8 @@ h3{
     color:rgba(0, 255, 238, 0.726);
     background-color: rgb(56, 56, 56);
     box-shadow: 0 0 20px rgb(64, 63, 63);
-    width:300px;
-    height:300px;
+    width:15.6vw;
+    height:27.7vh;
     padding:10px;
     border-radius: 10px;
     font-size: 15.9px;
@@ -126,7 +126,7 @@ h3{
 .blocks-idea{
     display:flex;
     flex-direction: row;
-    width: 95vw;
+    width: 100vw;
     justify-content: space-around;
     left:0;
 }
@@ -150,7 +150,7 @@ h3{
 }
 
 .functional{
-    width:98.9vw;
+    width:100vw;
     height:100vh;
     background-image:url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images.jpg);
     display: flex;
@@ -184,7 +184,7 @@ h3{
 }
 
 .func-blocks{
-    width:98.9vw;
+    width:100vw;
     height:150px;
     display: flex;
     flex-direction: row;
@@ -210,7 +210,7 @@ h3{
 }
 
 .footer{
-    width:98.9vw;
+    width:100vw;
     height:25vh;
     background-color: rgb(37, 37, 37);
     display: flex;
@@ -218,7 +218,6 @@ h3{
     align-items: center;
     justify-content: space-around;
     position: relative;
-    bottom:0px;
 }
 
 .soc{
