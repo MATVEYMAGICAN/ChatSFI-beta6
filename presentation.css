@@ -27,7 +27,7 @@ body{
 }
 
 .body-filter{
-    width:98.9vw;
+    width:100vw;
     height: 100vh;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
@@ -38,7 +38,7 @@ body{
 }
 
 .all-title{
-    width:98.9vw;
+    width:100vw;
     height: 100vh;
     color:rgb(0, 255, 255);
     position: relative;
